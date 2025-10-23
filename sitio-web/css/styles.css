@@ -76,3 +76,19 @@ a:hover{
     margin: 20px;
     justify-content: center;
 }
+/*portafolio.html*/
+.container3{
+    display: grid;
+    grid-template-rows: repeat(4,1fr);
+    justify-content: center;
+    gap:10px;
+}
+.main3{
+    background-color: rgb(204, 219, 232);
+    box-shadow: rgb(183, 179, 179) 0px 0px 5px;
+    padding: 20px;
+    border-radius: 5px;
+    margin: 20px;
+    justify-content: center;
+}
+
