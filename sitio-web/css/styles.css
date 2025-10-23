@@ -106,5 +106,29 @@ a:hover{
     margin: 20px;
     justify-content: center;
 }
+/*contacto.html*/
+.form-contacto {
+    max-width: 400px;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.form-contacto input, .form-contacto textarea, .form-contacto button {
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+}
+.form-contacto button {
+    background-color: #6c5ce7;
+    color: white;
+    cursor: pointer;
+    border: none;
+}
+.form-contacto button:hover {
+    background-color: #5443c7;
+}
+
 
 
